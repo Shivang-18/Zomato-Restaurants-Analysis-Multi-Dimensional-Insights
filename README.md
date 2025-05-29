@@ -20,21 +20,7 @@ This repository presents an end-to-end data analytics and business intelligence 
 
 ## Data Description
 
-### The raw dataset, collected from Zomato, includes ~51,000 restaurant records with the following key fields:
-
-- Url, name, location, address, phone, votes, rating
-
-- cuisines (multi-valued)
-
-- rest_type, listed_in(type), listed_in(city)
-
-- approx_cost(for two people)
-
-- online_order, book_table
-
-- reviews_list (as list of tuples)
-
-- lat, lon (added during geocoding phase)
+The raw dataset available on Kaggle and includes ~51,000 restaurant records with key fields like: name, location, address, phone, votes, rating, cuisines (multi-valued), rest_type, listed_in(type), listed_in(city), approx_cost(for two people), online_order, book_table, reviews_list (as list of tuples), lat, lon (added during geocoding phase)
 
 
 ## 1. Data Cleaning and Feature Engineering
