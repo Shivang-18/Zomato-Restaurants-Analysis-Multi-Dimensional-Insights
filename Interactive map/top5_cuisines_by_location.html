@@ -1,0 +1,3651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ac1e86cbd6fbac1b874759de1b0dbfb1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ac1e86cbd6fbac1b874759de1b0dbfb1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ac1e86cbd6fbac1b874759de1b0dbfb1 = L.map(
+                "map_ac1e86cbd6fbac1b874759de1b0dbfb1",
+                {
+                    center: [12.97, 77.59],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fdca582da00abfda4cc4e587b79ba2a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fdca582da00abfda4cc4e587b79ba2a1.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var feature_group_f0f90a7657dc93ce79ea0819ed127540 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_c3065e01c1e2e047f2cd6d81275eac46 = L.marker(
+                [12.98509865, 77.66311735],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_afa99504fa136a1b28c7ef72d348c124 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0c6315ee2ef5a2c891f186691da0e14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d947cf4d0d98c600ffaef5a33fc8333d = $(`<div id="html_d947cf4d0d98c600ffaef5a33fc8333d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> CV Raman Nagar <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.53</div>`)[0];
+                popup_c0c6315ee2ef5a2c891f186691da0e14.setContent(html_d947cf4d0d98c600ffaef5a33fc8333d);
+            
+        
+
+        marker_c3065e01c1e2e047f2cd6d81275eac46.bindPopup(popup_c0c6315ee2ef5a2c891f186691da0e14)
+        ;
+
+        
+    
+    
+                marker_c3065e01c1e2e047f2cd6d81275eac46.setIcon(icon_afa99504fa136a1b28c7ef72d348c124);
+            
+    
+            var marker_f0212f7b8a42763228aba0d39c6257da = L.marker(
+                [12.965718, 77.57627053720582],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_88f93e63d2cfcabccfd4c9f71e8da838 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51ca85a438d0124c5332c62254a4feba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e21da854ec95a1c7e532592f12dcdad = $(`<div id="html_5e21da854ec95a1c7e532592f12dcdad" style="width: 100.0%; height: 100.0%;"><b>Location:</b> City Market <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.61</div>`)[0];
+                popup_51ca85a438d0124c5332c62254a4feba.setContent(html_5e21da854ec95a1c7e532592f12dcdad);
+            
+        
+
+        marker_f0212f7b8a42763228aba0d39c6257da.bindPopup(popup_51ca85a438d0124c5332c62254a4feba)
+        ;
+
+        
+    
+    
+                marker_f0212f7b8a42763228aba0d39c6257da.setIcon(icon_88f93e63d2cfcabccfd4c9f71e8da838);
+            
+    
+            var marker_bbab8e0112a62eef74827cd899d7a1ba = L.marker(
+                [12.95881725035102, 77.60615516864692],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_a6e81eca43a5c5c040dcb1d53e6b13e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_934a099a4d92c1d888ce2d76d6ccf20e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9db99113238afec1e736ecbb7408d4a = $(`<div id="html_f9db99113238afec1e736ecbb7408d4a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Hosur Road <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.77</div>`)[0];
+                popup_934a099a4d92c1d888ce2d76d6ccf20e.setContent(html_f9db99113238afec1e736ecbb7408d4a);
+            
+        
+
+        marker_bbab8e0112a62eef74827cd899d7a1ba.bindPopup(popup_934a099a4d92c1d888ce2d76d6ccf20e)
+        ;
+
+        
+    
+    
+                marker_bbab8e0112a62eef74827cd899d7a1ba.setIcon(icon_a6e81eca43a5c5c040dcb1d53e6b13e2);
+            
+    
+            var marker_0572b36a5da76cde0682ab4dd5e3f6b3 = L.marker(
+                [12.9582149, 77.64133100000001],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_09462e441c6bc019bfad65b1c4bbced6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20b105741b7d15cd3d04600fe1a03331 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad3eb88655b15642c46bb5f618446aa9 = $(`<div id="html_ad3eb88655b15642c46bb5f618446aa9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.98</div>`)[0];
+                popup_20b105741b7d15cd3d04600fe1a03331.setContent(html_ad3eb88655b15642c46bb5f618446aa9);
+            
+        
+
+        marker_0572b36a5da76cde0682ab4dd5e3f6b3.bindPopup(popup_20b105741b7d15cd3d04600fe1a03331)
+        ;
+
+        
+    
+    
+                marker_0572b36a5da76cde0682ab4dd5e3f6b3.setIcon(icon_09462e441c6bc019bfad65b1c4bbced6);
+            
+    
+            var marker_8983150bbf2dc86526f89b2668f1f9d9 = L.marker(
+                [12.957998000000002, 77.6037312],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_f73d6f5af767dc6da28dc64c240893d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75c37f9d04942b8a1d006caa93883f9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_757d75d077c84eb82fae5f2432eaafa7 = $(`<div id="html_757d75d077c84eb82fae5f2432eaafa7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Langford Town <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.90</div>`)[0];
+                popup_75c37f9d04942b8a1d006caa93883f9d.setContent(html_757d75d077c84eb82fae5f2432eaafa7);
+            
+        
+
+        marker_8983150bbf2dc86526f89b2668f1f9d9.bindPopup(popup_75c37f9d04942b8a1d006caa93883f9d)
+        ;
+
+        
+    
+    
+                marker_8983150bbf2dc86526f89b2668f1f9d9.setIcon(icon_f73d6f5af767dc6da28dc64c240893d1);
+            
+    
+            var marker_81429932825cd19627edef637406b084 = L.marker(
+                [12.98447924557843, 77.64153405159466],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_e31174b67521df0bb5d39a1a065e2360 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37f620d27a743f06e5d2024b14363788 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_452ab25a70bb0c08e32703a32f27f9ca = $(`<div id="html_452ab25a70bb0c08e32703a32f27f9ca" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Old Madras Road <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.51</div>`)[0];
+                popup_37f620d27a743f06e5d2024b14363788.setContent(html_452ab25a70bb0c08e32703a32f27f9ca);
+            
+        
+
+        marker_81429932825cd19627edef637406b084.bindPopup(popup_37f620d27a743f06e5d2024b14363788)
+        ;
+
+        
+    
+    
+                marker_81429932825cd19627edef637406b084.setIcon(icon_e31174b67521df0bb5d39a1a065e2360);
+            
+    
+            var marker_b72762cc8c83ecace42a377ec04e0946 = L.marker(
+                [13.0005359, 77.5496996],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_4a209739fea75d5bbd18572c5a059327 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce2f13a6251c64175cd5b8947479e725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c454f439c2ef036c098c19db25276b0 = $(`<div id="html_7c454f439c2ef036c098c19db25276b0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Rajajinagar <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.67</div>`)[0];
+                popup_ce2f13a6251c64175cd5b8947479e725.setContent(html_7c454f439c2ef036c098c19db25276b0);
+            
+        
+
+        marker_b72762cc8c83ecace42a377ec04e0946.bindPopup(popup_ce2f13a6251c64175cd5b8947479e725)
+        ;
+
+        
+    
+    
+                marker_b72762cc8c83ecace42a377ec04e0946.setIcon(icon_4a209739fea75d5bbd18572c5a059327);
+            
+    
+            var marker_4e432869f8a1d7a0be3a128d017fbdd3 = L.marker(
+                [12.9660722, 77.6125940647638],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_13a55b514cf69a78b8849bff320122c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6d3e07068604bc0ab902f257893ab38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04a85d209f152b77f51f867b55b6f831 = $(`<div id="html_04a85d209f152b77f51f867b55b6f831" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Vijay Nagar <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.65</div>`)[0];
+                popup_d6d3e07068604bc0ab902f257893ab38.setContent(html_04a85d209f152b77f51f867b55b6f831);
+            
+        
+
+        marker_4e432869f8a1d7a0be3a128d017fbdd3.bindPopup(popup_d6d3e07068604bc0ab902f257893ab38)
+        ;
+
+        
+    
+    
+                marker_4e432869f8a1d7a0be3a128d017fbdd3.setIcon(icon_13a55b514cf69a78b8849bff320122c3);
+            
+    
+            var marker_8a9fda1e3673edbac46af325062f8d9c = L.marker(
+                [12.9489339, 77.5968273],
+                {
+}
+            ).addTo(feature_group_f0f90a7657dc93ce79ea0819ed127540);
+        
+    
+            var icon_14dde0a7f79cf7030c6c71647ae1496c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "utensils",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e16799e2dfd8b8109ae2894ffd6ff50f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_040b30cece5842dcab64aaa8edf8c7e0 = $(`<div id="html_040b30cece5842dcab64aaa8edf8c7e0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Wilson Garden <br><b>Top Cuisine:</b> North Indian<br><b>Avg Rating:</b> 3.64</div>`)[0];
+                popup_e16799e2dfd8b8109ae2894ffd6ff50f.setContent(html_040b30cece5842dcab64aaa8edf8c7e0);
+            
+        
+
+        marker_8a9fda1e3673edbac46af325062f8d9c.bindPopup(popup_e16799e2dfd8b8109ae2894ffd6ff50f)
+        ;
+
+        
+    
+    
+                marker_8a9fda1e3673edbac46af325062f8d9c.setIcon(icon_14dde0a7f79cf7030c6c71647ae1496c);
+            
+    
+            feature_group_f0f90a7657dc93ce79ea0819ed127540.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var feature_group_4f435c74881cc323fb8ee88e45d60a1b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d7392a1f77db61d8cdf54b9435d9ae71 = L.marker(
+                [12.9986827, 77.615525],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_b4f840a25cf1bcc214069d1243e318fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_98ba19395fe1c2169824f8514f711a51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faec3936635e58847b8c2b27d9027484 = $(`<div id="html_faec3936635e58847b8c2b27d9027484" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Frazer Town <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.63</div>`)[0];
+                popup_98ba19395fe1c2169824f8514f711a51.setContent(html_faec3936635e58847b8c2b27d9027484);
+            
+        
+
+        marker_d7392a1f77db61d8cdf54b9435d9ae71.bindPopup(popup_98ba19395fe1c2169824f8514f711a51)
+        ;
+
+        
+    
+    
+                marker_d7392a1f77db61d8cdf54b9435d9ae71.setIcon(icon_b4f840a25cf1bcc214069d1243e318fe);
+            
+    
+            var marker_588badb864c6cf8a8b9f89521cce9c47 = L.marker(
+                [13.078474300000002, 77.6068938],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_a2a21a5ade4f48f47b8190e96ff507ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7b8ea770c024616e10b703d6a0503d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc90f2fbf7ad745883bab5da5a920576 = $(`<div id="html_bc90f2fbf7ad745883bab5da5a920576" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Jakkur <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_c7b8ea770c024616e10b703d6a0503d8.setContent(html_bc90f2fbf7ad745883bab5da5a920576);
+            
+        
+
+        marker_588badb864c6cf8a8b9f89521cce9c47.bindPopup(popup_c7b8ea770c024616e10b703d6a0503d8)
+        ;
+
+        
+    
+    
+                marker_588badb864c6cf8a8b9f89521cce9c47.setIcon(icon_a2a21a5ade4f48f47b8190e96ff507ff);
+            
+    
+            var marker_9249d27dc02769c0b857c5e49857d14c = L.marker(
+                [12.9846713, 77.6790908],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_164e7306003c5aeca064fa55f4a8a2e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df5fd338eaa24ac8b3221ef3adf05bf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15f091eb5f058ea73bd50fcea8bda86a = $(`<div id="html_15f091eb5f058ea73bd50fcea8bda86a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Kaggadasapura <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.61</div>`)[0];
+                popup_df5fd338eaa24ac8b3221ef3adf05bf9.setContent(html_15f091eb5f058ea73bd50fcea8bda86a);
+            
+        
+
+        marker_9249d27dc02769c0b857c5e49857d14c.bindPopup(popup_df5fd338eaa24ac8b3221ef3adf05bf9)
+        ;
+
+        
+    
+    
+                marker_9249d27dc02769c0b857c5e49857d14c.setIcon(icon_164e7306003c5aeca064fa55f4a8a2e8);
+            
+    
+            var marker_955bca78c52354a04d84d718f4b53376 = L.marker(
+                [12.927724500000002, 77.6327822],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_87e2d444a20d0037ade827ba397fe1a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b622342daf6e08a37811f9a6b8c24708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb62f005ebd954e8113ac4e8bfdb6ddb = $(`<div id="html_cb62f005ebd954e8113ac4e8bfdb6ddb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 1st Block <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.67</div>`)[0];
+                popup_b622342daf6e08a37811f9a6b8c24708.setContent(html_cb62f005ebd954e8113ac4e8bfdb6ddb);
+            
+        
+
+        marker_955bca78c52354a04d84d718f4b53376.bindPopup(popup_b622342daf6e08a37811f9a6b8c24708)
+        ;
+
+        
+    
+    
+                marker_955bca78c52354a04d84d718f4b53376.setIcon(icon_87e2d444a20d0037ade827ba397fe1a5);
+            
+    
+            var marker_938d828c557f49dfa847c0208364eef1 = L.marker(
+                [12.9243692, 77.6242433],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_6675d96bc248433805840ef36bfd6496 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e8f464c54af2d107b14bbb755251a10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9970f82a3d929342ffae209897954357 = $(`<div id="html_9970f82a3d929342ffae209897954357" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 2nd Block <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.74</div>`)[0];
+                popup_8e8f464c54af2d107b14bbb755251a10.setContent(html_9970f82a3d929342ffae209897954357);
+            
+        
+
+        marker_938d828c557f49dfa847c0208364eef1.bindPopup(popup_8e8f464c54af2d107b14bbb755251a10)
+        ;
+
+        
+    
+    
+                marker_938d828c557f49dfa847c0208364eef1.setIcon(icon_6675d96bc248433805840ef36bfd6496);
+            
+    
+            var marker_4423c1cca878aa7c01a40a21de7177c9 = L.marker(
+                [12.9819569258295, 77.51837412776779],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_b6ba802c1d16403b18ee43fa2222a4a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d9bc4555576671562d4d95d5c53592b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1b209be89bc6887fe6e978f2bb9f3d4 = $(`<div id="html_c1b209be89bc6887fe6e978f2bb9f3d4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Nagarbhavi <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.61</div>`)[0];
+                popup_9d9bc4555576671562d4d95d5c53592b.setContent(html_c1b209be89bc6887fe6e978f2bb9f3d4);
+            
+        
+
+        marker_4423c1cca878aa7c01a40a21de7177c9.bindPopup(popup_9d9bc4555576671562d4d95d5c53592b)
+        ;
+
+        
+    
+    
+                marker_4423c1cca878aa7c01a40a21de7177c9.setIcon(icon_b6ba802c1d16403b18ee43fa2222a4a7);
+            
+    
+            var marker_93b500869473d2d8b08af26b2b23cbb7 = L.marker(
+                [13.0330515, 77.5332233],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_11cb998dca8a92ddd3f620d255e35e8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa2d17fa80337b385297229d27db52c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e07557feec8cdd88d64bd83772ba991 = $(`<div id="html_1e07557feec8cdd88d64bd83772ba991" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Peenya <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.20</div>`)[0];
+                popup_fa2d17fa80337b385297229d27db52c8.setContent(html_1e07557feec8cdd88d64bd83772ba991);
+            
+        
+
+        marker_93b500869473d2d8b08af26b2b23cbb7.bindPopup(popup_fa2d17fa80337b385297229d27db52c8)
+        ;
+
+        
+    
+    
+                marker_93b500869473d2d8b08af26b2b23cbb7.setIcon(icon_11cb998dca8a92ddd3f620d255e35e8a);
+            
+    
+            var marker_308959eaa1177799fc3acfd9f390cc6f = L.marker(
+                [12.9274413, 77.5155224],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_fced49c0731928fda60f1b63a3e445b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bb5fb257181c03cd3e96412c61a715b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d51928a47e3e51389ce80f2d2ade2e = $(`<div id="html_82d51928a47e3e51389ce80f2d2ade2e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Rajarajeshwari Nagar <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_0bb5fb257181c03cd3e96412c61a715b.setContent(html_82d51928a47e3e51389ce80f2d2ade2e);
+            
+        
+
+        marker_308959eaa1177799fc3acfd9f390cc6f.bindPopup(popup_0bb5fb257181c03cd3e96412c61a715b)
+        ;
+
+        
+    
+    
+                marker_308959eaa1177799fc3acfd9f390cc6f.setIcon(icon_fced49c0731928fda60f1b63a3e445b9);
+            
+    
+            var marker_34bca664d0d14f27fb07244e6ed8a31b = L.marker(
+                [12.973936, 77.6509982],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_28d16f142ff8ace3b4493d31f4c022a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97d15f9e2b0411861263fc7e8442c580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1a6e4c97eb6a0fb9f6a63e1a6e1cfde = $(`<div id="html_f1a6e4c97eb6a0fb9f6a63e1a6e1cfde" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Thippasandra <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_97d15f9e2b0411861263fc7e8442c580.setContent(html_f1a6e4c97eb6a0fb9f6a63e1a6e1cfde);
+            
+        
+
+        marker_34bca664d0d14f27fb07244e6ed8a31b.bindPopup(popup_97d15f9e2b0411861263fc7e8442c580)
+        ;
+
+        
+    
+    
+                marker_34bca664d0d14f27fb07244e6ed8a31b.setIcon(icon_28d16f142ff8ace3b4493d31f4c022a6);
+            
+    
+            var marker_433ad1e87fb056f30f036db4ce119551 = L.marker(
+                [12.905568200000001, 77.5455438],
+                {
+}
+            ).addTo(feature_group_4f435c74881cc323fb8ee88e45d60a1b);
+        
+    
+            var icon_91de8a1bbcd4cd3d8bd37ad8d08853e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "globe-asia",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ed09b6654515e8056d001fe9b388bc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75bf77ba4160abb9c6cafa6ee0e5f2b9 = $(`<div id="html_75bf77ba4160abb9c6cafa6ee0e5f2b9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Uttarahalli <br><b>Top Cuisine:</b> Chinese<br><b>Avg Rating:</b> 3.56</div>`)[0];
+                popup_3ed09b6654515e8056d001fe9b388bc6.setContent(html_75bf77ba4160abb9c6cafa6ee0e5f2b9);
+            
+        
+
+        marker_433ad1e87fb056f30f036db4ce119551.bindPopup(popup_3ed09b6654515e8056d001fe9b388bc6)
+        ;
+
+        
+    
+    
+                marker_433ad1e87fb056f30f036db4ce119551.setIcon(icon_91de8a1bbcd4cd3d8bd37ad8d08853e1);
+            
+    
+            feature_group_4f435c74881cc323fb8ee88e45d60a1b.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var feature_group_5796ef38b327c8b3516d8d179baa6a47 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_6d706b4e95418a91c0af4c3f1aea0fec = L.marker(
+                [13.007516, 77.695935],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_dccf8c71dcc75d2f06d2c7ac950a4153 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f17fa7527a5e5fd8404d7f6befc6ed85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d2372d0c078e0bbb2c83fc6a0796ab2 = $(`<div id="html_8d2372d0c078e0bbb2c83fc6a0796ab2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> KR Puram <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_f17fa7527a5e5fd8404d7f6befc6ed85.setContent(html_8d2372d0c078e0bbb2c83fc6a0796ab2);
+            
+        
+
+        marker_6d706b4e95418a91c0af4c3f1aea0fec.bindPopup(popup_f17fa7527a5e5fd8404d7f6befc6ed85)
+        ;
+
+        
+    
+    
+                marker_6d706b4e95418a91c0af4c3f1aea0fec.setIcon(icon_dccf8c71dcc75d2f06d2c7ac950a4153);
+            
+    
+            var marker_eae36abceb4820246f3296648d1f7849 = L.marker(
+                [13.0221416, 77.6403368],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_5c6b97d7ecd34cc0065d00ba8d2e6aae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d7dc5effb2b83386006a0af67b1f493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a69df97991360b9d62e6d165f1c2082 = $(`<div id="html_6a69df97991360b9d62e6d165f1c2082" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Kalyan Nagar <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.85</div>`)[0];
+                popup_7d7dc5effb2b83386006a0af67b1f493.setContent(html_6a69df97991360b9d62e6d165f1c2082);
+            
+        
+
+        marker_eae36abceb4820246f3296648d1f7849.bindPopup(popup_7d7dc5effb2b83386006a0af67b1f493)
+        ;
+
+        
+    
+    
+                marker_eae36abceb4820246f3296648d1f7849.setIcon(icon_5c6b97d7ecd34cc0065d00ba8d2e6aae);
+            
+    
+            var marker_411b99af321b1db82cb3f418080534a2 = L.marker(
+                [12.936720625104831, 77.5753732198886],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_ced7dedc2af668f1b06bf2b23d976de1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18450d2305340aaf411f397bb2f86ef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff720c735eb88f045d94a28415695d27 = $(`<div id="html_ff720c735eb88f045d94a28415695d27" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Kanakapura Road <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.50</div>`)[0];
+                popup_18450d2305340aaf411f397bb2f86ef5.setContent(html_ff720c735eb88f045d94a28415695d27);
+            
+        
+
+        marker_411b99af321b1db82cb3f418080534a2.bindPopup(popup_18450d2305340aaf411f397bb2f86ef5)
+        ;
+
+        
+    
+    
+                marker_411b99af321b1db82cb3f418080534a2.setIcon(icon_ced7dedc2af668f1b06bf2b23d976de1);
+            
+    
+            var marker_9c4a856b20de915f4f816ee21e6edf2a = L.marker(
+                [12.9067683, 77.5595021],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_abddf59ee6d0f7eb59b420f5e10b23a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d2b30c651b7b83f21675e11330296e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2af63834007acd5678be369b5546acb = $(`<div id="html_a2af63834007acd5678be369b5546acb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Kumaraswamy Layout <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.56</div>`)[0];
+                popup_4d2b30c651b7b83f21675e11330296e5.setContent(html_a2af63834007acd5678be369b5546acb);
+            
+        
+
+        marker_9c4a856b20de915f4f816ee21e6edf2a.bindPopup(popup_4d2b30c651b7b83f21675e11330296e5)
+        ;
+
+        
+    
+    
+                marker_9c4a856b20de915f4f816ee21e6edf2a.setIcon(icon_abddf59ee6d0f7eb59b420f5e10b23a9);
+            
+    
+            var marker_2f3f0648a1c0e4149ca5f05731184e7d = L.marker(
+                [13.002735300000001, 77.5703253],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_0a2856825e91be656ae5a43ebc110582 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a3631e70813504dc648bba15857078d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3c0bf5c2e53bae473250f6deb2ad1f3 = $(`<div id="html_f3c0bf5c2e53bae473250f6deb2ad1f3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Malleshwaram <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.77</div>`)[0];
+                popup_3a3631e70813504dc648bba15857078d.setContent(html_f3c0bf5c2e53bae473250f6deb2ad1f3);
+            
+        
+
+        marker_2f3f0648a1c0e4149ca5f05731184e7d.bindPopup(popup_3a3631e70813504dc648bba15857078d)
+        ;
+
+        
+    
+    
+                marker_2f3f0648a1c0e4149ca5f05731184e7d.setIcon(icon_0a2856825e91be656ae5a43ebc110582);
+            
+    
+            var marker_8cb13146a9b074dea7aa437ccdf43b74 = L.marker(
+                [12.9817233, 77.5549364],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_96cda4956ae8dcba47d93374275a7845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30e7c74fd25560819a3b4c6441fdf526 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f8cc77ffd9032b9ffaaddd0b8197bbe = $(`<div id="html_8f8cc77ffd9032b9ffaaddd0b8197bbe" style="width: 100.0%; height: 100.0%;"><b>Location:</b> North Bangalore <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_30e7c74fd25560819a3b4c6441fdf526.setContent(html_8f8cc77ffd9032b9ffaaddd0b8197bbe);
+            
+        
+
+        marker_8cb13146a9b074dea7aa437ccdf43b74.bindPopup(popup_30e7c74fd25560819a3b4c6441fdf526)
+        ;
+
+        
+    
+    
+                marker_8cb13146a9b074dea7aa437ccdf43b74.setIcon(icon_96cda4956ae8dcba47d93374275a7845);
+            
+    
+            var marker_4d1ad1e7714722d977d15544c9ca265d = L.marker(
+                [13.10850545, 77.58533304149645],
+                {
+}
+            ).addTo(feature_group_5796ef38b327c8b3516d8d179baa6a47);
+        
+    
+            var icon_27dfdc83111d94dc5375f35c4be28818 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03939a164253c3c5edc1758f450664e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5439588516e0ce73d6eb78c415380d08 = $(`<div id="html_5439588516e0ce73d6eb78c415380d08" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Yelahanka <br><b>Top Cuisine:</b> South Indian<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_03939a164253c3c5edc1758f450664e6.setContent(html_5439588516e0ce73d6eb78c415380d08);
+            
+        
+
+        marker_4d1ad1e7714722d977d15544c9ca265d.bindPopup(popup_03939a164253c3c5edc1758f450664e6)
+        ;
+
+        
+    
+    
+                marker_4d1ad1e7714722d977d15544c9ca265d.setIcon(icon_27dfdc83111d94dc5375f35c4be28818);
+            
+    
+            feature_group_5796ef38b327c8b3516d8d179baa6a47.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_9dbd09e72bd9c90188749f6b582ab44f = L.marker(
+                [12.9089453, 77.6239038],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_92879f60a3fd92bd32d99d81c2018c78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_086b1b242f6ec74e33a031c18d859b59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ba90bc2ca119f93e3da1868ccd0b034 = $(`<div id="html_5ba90bc2ca119f93e3da1868ccd0b034" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Bommanahalli <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.46</div>`)[0];
+                popup_086b1b242f6ec74e33a031c18d859b59.setContent(html_5ba90bc2ca119f93e3da1868ccd0b034);
+            
+        
+
+        marker_9dbd09e72bd9c90188749f6b582ab44f.bindPopup(popup_086b1b242f6ec74e33a031c18d859b59)
+        ;
+
+        
+    
+    
+                marker_9dbd09e72bd9c90188749f6b582ab44f.setIcon(icon_92879f60a3fd92bd32d99d81c2018c78);
+            
+    
+            var marker_a3e846d2ea496e7ddbc0d54a05ccab9c = L.marker(
+                [12.989645099999999, 77.5727101],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_0ae3a270e21c625d0c0e2d56bb5bd37a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f103162909ce2afd70d0db0628cf85c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67c9db5c320d4c1c451dff6069fb1765 = $(`<div id="html_67c9db5c320d4c1c451dff6069fb1765" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Central Bangalore <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.63</div>`)[0];
+                popup_4f103162909ce2afd70d0db0628cf85c.setContent(html_67c9db5c320d4c1c451dff6069fb1765);
+            
+        
+
+        marker_a3e846d2ea496e7ddbc0d54a05ccab9c.bindPopup(popup_4f103162909ce2afd70d0db0628cf85c)
+        ;
+
+        
+    
+    
+                marker_a3e846d2ea496e7ddbc0d54a05ccab9c.setIcon(icon_0ae3a270e21c625d0c0e2d56bb5bd37a);
+            
+    
+            var marker_c49e325afabe7f264d3dc0850c852fa3 = L.marker(
+                [12.98224226073189, 77.60826495277115],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_4f6b600ad1f711a24c31e95d14d01579 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e8a7c7d55b80645baa99f92bdd34c81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceeb0c7d08fe853b298939c233df667c = $(`<div id="html_ceeb0c7d08fe853b298939c233df667c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Commercial Street <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.83</div>`)[0];
+                popup_7e8a7c7d55b80645baa99f92bdd34c81.setContent(html_ceeb0c7d08fe853b298939c233df667c);
+            
+        
+
+        marker_c49e325afabe7f264d3dc0850c852fa3.bindPopup(popup_7e8a7c7d55b80645baa99f92bdd34c81)
+        ;
+
+        
+    
+    
+                marker_c49e325afabe7f264d3dc0850c852fa3.setIcon(icon_4f6b600ad1f711a24c31e95d14d01579);
+            
+    
+            var marker_082ab8893b51c4618c6401d420fd17c2 = L.marker(
+                [13.0382184, 77.5919],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_8d560514292f6a8343bbbe949c25215d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09c3612b566cda3bcdf676471b73f748 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b24244c683427fc58a65086592ffe65 = $(`<div id="html_8b24244c683427fc58a65086592ffe65" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Hebbal <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.66</div>`)[0];
+                popup_09c3612b566cda3bcdf676471b73f748.setContent(html_8b24244c683427fc58a65086592ffe65);
+            
+        
+
+        marker_082ab8893b51c4618c6401d420fd17c2.bindPopup(popup_09c3612b566cda3bcdf676471b73f748)
+        ;
+
+        
+    
+    
+                marker_082ab8893b51c4618c6401d420fd17c2.setIcon(icon_8d560514292f6a8343bbbe949c25215d);
+            
+    
+            var marker_9670e3127e8c2535e41515f9b5195d26 = L.marker(
+                [13.0258087, 77.6305067],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_fbfac2c152fa715ea83921bb59dce63e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e473fcd359c917e2b967f1b3cc8b2edd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_368bcc37264feb43a4f3a7ec14b10bf6 = $(`<div id="html_368bcc37264feb43a4f3a7ec14b10bf6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Hennur <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_e473fcd359c917e2b967f1b3cc8b2edd.setContent(html_368bcc37264feb43a4f3a7ec14b10bf6);
+            
+        
+
+        marker_9670e3127e8c2535e41515f9b5195d26.bindPopup(popup_e473fcd359c917e2b967f1b3cc8b2edd)
+        ;
+
+        
+    
+    
+                marker_9670e3127e8c2535e41515f9b5195d26.setIcon(icon_fbfac2c152fa715ea83921bb59dce63e);
+            
+    
+            var marker_60f4c543dd77ede7e6097d2984f21f79 = L.marker(
+                [12.98101552171903, 77.6021328999572],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_654eb1b79062dbd4635d22550185fd14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3450172481ba2a55ffa2539d5b974cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b75e3d45886a314eeab77eb13a5afbf4 = $(`<div id="html_b75e3d45886a314eeab77eb13a5afbf4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Infantry Road <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.93</div>`)[0];
+                popup_3450172481ba2a55ffa2539d5b974cb9.setContent(html_b75e3d45886a314eeab77eb13a5afbf4);
+            
+        
+
+        marker_60f4c543dd77ede7e6097d2984f21f79.bindPopup(popup_3450172481ba2a55ffa2539d5b974cb9)
+        ;
+
+        
+    
+    
+                marker_60f4c543dd77ede7e6097d2984f21f79.setIcon(icon_654eb1b79062dbd4635d22550185fd14);
+            
+    
+            var marker_1f82c0f332b8f023dda21d31c7889c0b = L.marker(
+                [13.0394104, 77.5197351],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_24bf15ec39840816f365c16739001aad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05fbbe0aa4e453239a1a62826ea3326e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_765318e1bbf99b8fb430c9f17ab72947 = $(`<div id="html_765318e1bbf99b8fb430c9f17ab72947" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Jalahalli <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_05fbbe0aa4e453239a1a62826ea3326e.setContent(html_765318e1bbf99b8fb430c9f17ab72947);
+            
+        
+
+        marker_1f82c0f332b8f023dda21d31c7889c0b.bindPopup(popup_05fbbe0aa4e453239a1a62826ea3326e)
+        ;
+
+        
+    
+    
+                marker_1f82c0f332b8f023dda21d31c7889c0b.setIcon(icon_24bf15ec39840816f365c16739001aad);
+            
+    
+            var marker_3d4c1949561a9b2d437c4fc0acd5dac3 = L.marker(
+                [12.9678074, 77.6568367],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_8c88ba22455f74388d9998e64cb210d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_353c0f911c4adcbf1448d3bc3521bd00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1bf15228fc1ea5982a2e59144b1a883 = $(`<div id="html_d1bf15228fc1ea5982a2e59144b1a883" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Jeevan Bhima Nagar <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.66</div>`)[0];
+                popup_353c0f911c4adcbf1448d3bc3521bd00.setContent(html_d1bf15228fc1ea5982a2e59144b1a883);
+            
+        
+
+        marker_3d4c1949561a9b2d437c4fc0acd5dac3.bindPopup(popup_353c0f911c4adcbf1448d3bc3521bd00)
+        ;
+
+        
+    
+    
+                marker_3d4c1949561a9b2d437c4fc0acd5dac3.setIcon(icon_8c88ba22455f74388d9998e64cb210d5);
+            
+    
+            var marker_8fd3392b6956bc518dc2c801b909377c = L.marker(
+                [12.9282918, 77.6254034],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_3c6d5cfa4713a2ac1dde9b3d800d55ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e02d8848f1f24b760d4f232fbb0f9c8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d985f85b9edd633d92edb1aed6ea9f1b = $(`<div id="html_d985f85b9edd633d92edb1aed6ea9f1b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 3rd Block <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.99</div>`)[0];
+                popup_e02d8848f1f24b760d4f232fbb0f9c8e.setContent(html_d985f85b9edd633d92edb1aed6ea9f1b);
+            
+        
+
+        marker_8fd3392b6956bc518dc2c801b909377c.bindPopup(popup_e02d8848f1f24b760d4f232fbb0f9c8e)
+        ;
+
+        
+    
+    
+                marker_8fd3392b6956bc518dc2c801b909377c.setIcon(icon_3c6d5cfa4713a2ac1dde9b3d800d55ba);
+            
+    
+            var marker_dd28140622874e9cf8ae5a8e188204bf = L.marker(
+                [12.9408685, 77.617338],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_9b52bc2d416b1a3b65449ad2ce2bbc61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdb6d91040aa40ce3ae684c58d5c6409 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd4438764cd5041be5bfcc3a22da210e = $(`<div id="html_cd4438764cd5041be5bfcc3a22da210e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 8th Block <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.69</div>`)[0];
+                popup_fdb6d91040aa40ce3ae684c58d5c6409.setContent(html_cd4438764cd5041be5bfcc3a22da210e);
+            
+        
+
+        marker_dd28140622874e9cf8ae5a8e188204bf.bindPopup(popup_fdb6d91040aa40ce3ae684c58d5c6409)
+        ;
+
+        
+    
+    
+                marker_dd28140622874e9cf8ae5a8e188204bf.setIcon(icon_9b52bc2d416b1a3b65449ad2ce2bbc61);
+            
+    
+            var marker_e9c8378527317927e86c9e32fe1925c8 = L.marker(
+                [12.95189715376058, 77.54028207323238],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_4e17880d428b39f3fccdde5cda4bbaf5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b587a35f55ef9f2f7f2bf1a69bda5b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01af9d23624ac54759eaea28a0f158f7 = $(`<div id="html_01af9d23624ac54759eaea28a0f158f7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mysore Road <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.80</div>`)[0];
+                popup_8b587a35f55ef9f2f7f2bf1a69bda5b0.setContent(html_01af9d23624ac54759eaea28a0f158f7);
+            
+        
+
+        marker_e9c8378527317927e86c9e32fe1925c8.bindPopup(popup_8b587a35f55ef9f2f7f2bf1a69bda5b0)
+        ;
+
+        
+    
+    
+                marker_e9c8378527317927e86c9e32fe1925c8.setIcon(icon_4e17880d428b39f3fccdde5cda4bbaf5);
+            
+    
+            var marker_48e93f12f4f752d0f751e553d818e28b = L.marker(
+                [12.983009663675498, 77.57678789965348],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_d00b8fab4c48a09a86977d5379fcf0b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a8f5894a03f6e9b4744c98606482e68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1c114b24d379f1243e83fafbda1daa9 = $(`<div id="html_f1c114b24d379f1243e83fafbda1daa9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Race Course Road <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.90</div>`)[0];
+                popup_2a8f5894a03f6e9b4744c98606482e68.setContent(html_f1c114b24d379f1243e83fafbda1daa9);
+            
+        
+
+        marker_48e93f12f4f752d0f751e553d818e28b.bindPopup(popup_2a8f5894a03f6e9b4744c98606482e68)
+        ;
+
+        
+    
+    
+                marker_48e93f12f4f752d0f751e553d818e28b.setIcon(icon_d00b8fab4c48a09a86977d5379fcf0b3);
+            
+    
+            var marker_17b99e12f44441b4a02a25c2e4b5a804 = L.marker(
+                [13.014686333333332, 77.6693996],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_05c30779c05744a3e5b28d21d88c451e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae3cd8b8f78cff42080bab75a62fbcd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34b7b69ef78123f2d45a3a153a6fc97b = $(`<div id="html_34b7b69ef78123f2d45a3a153a6fc97b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Rammurthy Nagar <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.48</div>`)[0];
+                popup_ae3cd8b8f78cff42080bab75a62fbcd8.setContent(html_34b7b69ef78123f2d45a3a153a6fc97b);
+            
+        
+
+        marker_17b99e12f44441b4a02a25c2e4b5a804.bindPopup(popup_ae3cd8b8f78cff42080bab75a62fbcd8)
+        ;
+
+        
+    
+    
+                marker_17b99e12f44441b4a02a25c2e4b5a804.setIcon(icon_05c30779c05744a3e5b28d21d88c451e);
+            
+    
+            var marker_dd249d8f6d092c2921342506518bdc0f = L.marker(
+                [12.986391, 77.6075416],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_d1e2b3923c806ae494c3c1bc915a285d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_545a6427945550c27d23a7455a0d5a32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64c33c9e6942f6f089ea6fdcc453d348 = $(`<div id="html_64c33c9e6942f6f089ea6fdcc453d348" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Shivajinagar <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.73</div>`)[0];
+                popup_545a6427945550c27d23a7455a0d5a32.setContent(html_64c33c9e6942f6f089ea6fdcc453d348);
+            
+        
+
+        marker_dd249d8f6d092c2921342506518bdc0f.bindPopup(popup_545a6427945550c27d23a7455a0d5a32)
+        ;
+
+        
+    
+    
+                marker_dd249d8f6d092c2921342506518bdc0f.setIcon(icon_d1e2b3923c806ae494c3c1bc915a285d);
+            
+    
+            var marker_971c692fb2ca541e165ce3a26a0af24d = L.marker(
+                [12.9778793, 77.6246697],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_2a121dab0aa871f2216eb6aadb55344d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efa77f2027302b0448474b76a70d145a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a812690c8605f897ccc3724f743dfcc = $(`<div id="html_7a812690c8605f897ccc3724f743dfcc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Ulsoor <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_efa77f2027302b0448474b76a70d145a.setContent(html_7a812690c8605f897ccc3724f743dfcc);
+            
+        
+
+        marker_971c692fb2ca541e165ce3a26a0af24d.bindPopup(popup_efa77f2027302b0448474b76a70d145a)
+        ;
+
+        
+    
+    
+                marker_971c692fb2ca541e165ce3a26a0af24d.setIcon(icon_2a121dab0aa871f2216eb6aadb55344d);
+            
+    
+            var marker_dd643430237d676907106e12f5bd8399 = L.marker(
+                [13.0096524, 77.5530535343493],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_2de5d76d531a433121b76674ccd9d128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad29dfa1389cbd5a5cfcfb2267c8e4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71a3564a9560bd34ac37e822a373c002 = $(`<div id="html_71a3564a9560bd34ac37e822a373c002" style="width: 100.0%; height: 100.0%;"><b>Location:</b> West Bangalore <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.45</div>`)[0];
+                popup_ad29dfa1389cbd5a5cfcfb2267c8e4c4.setContent(html_71a3564a9560bd34ac37e822a373c002);
+            
+        
+
+        marker_dd643430237d676907106e12f5bd8399.bindPopup(popup_ad29dfa1389cbd5a5cfcfb2267c8e4c4)
+        ;
+
+        
+    
+    
+                marker_dd643430237d676907106e12f5bd8399.setIcon(icon_2de5d76d531a433121b76674ccd9d128);
+            
+    
+            var marker_433e940125cfb2a1c2f9bebac49e25af = L.marker(
+                [13.02383, 77.5529215],
+                {
+}
+            ).addTo(feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5);
+        
+    
+            var icon_7ef6e98633cc003e712ae2747c9863de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "hamburger",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_417849415b5d96eea7096c4d5f772e4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b37baf536814882cca17f2fbac800720 = $(`<div id="html_b37baf536814882cca17f2fbac800720" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Yeshwantpur <br><b>Top Cuisine:</b> Fast Food<br><b>Avg Rating:</b> 3.71</div>`)[0];
+                popup_417849415b5d96eea7096c4d5f772e4a.setContent(html_b37baf536814882cca17f2fbac800720);
+            
+        
+
+        marker_433e940125cfb2a1c2f9bebac49e25af.bindPopup(popup_417849415b5d96eea7096c4d5f772e4a)
+        ;
+
+        
+    
+    
+                marker_433e940125cfb2a1c2f9bebac49e25af.setIcon(icon_7ef6e98633cc003e712ae2747c9863de);
+            
+    
+            feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var feature_group_e023eb898bdd59dcc8596daf7a81732c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_5f326359aacc1dcc5d04debf46643e34 = L.marker(
+                [12.9163603, 77.604733],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_2f5065712f57d3f294036c4ba3963859 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_312d9eb138ab90f58aa1b6680e9cb646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_102f483ce5cb0287e6876d3d891cae92 = $(`<div id="html_102f483ce5cb0287e6876d3d891cae92" style="width: 100.0%; height: 100.0%;"><b>Location:</b> BTM <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.71</div>`)[0];
+                popup_312d9eb138ab90f58aa1b6680e9cb646.setContent(html_102f483ce5cb0287e6876d3d891cae92);
+            
+        
+
+        marker_5f326359aacc1dcc5d04debf46643e34.bindPopup(popup_312d9eb138ab90f58aa1b6680e9cb646)
+        ;
+
+        
+    
+    
+                marker_5f326359aacc1dcc5d04debf46643e34.setIcon(icon_2f5065712f57d3f294036c4ba3963859);
+            
+    
+            var marker_d77d51c05032b9e6022a4bde0b682fad = L.marker(
+                [12.939332799999999, 77.5539819],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_1281bb31694645e08983556bd1ac21d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78a8156cfd8f18c01aa5931225304287 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6b3915f5402b768fc5c982e6b659678 = $(`<div id="html_d6b3915f5402b768fc5c982e6b659678" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Banashankari <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.75</div>`)[0];
+                popup_78a8156cfd8f18c01aa5931225304287.setContent(html_d6b3915f5402b768fc5c982e6b659678);
+            
+        
+
+        marker_d77d51c05032b9e6022a4bde0b682fad.bindPopup(popup_78a8156cfd8f18c01aa5931225304287)
+        ;
+
+        
+    
+    
+                marker_d77d51c05032b9e6022a4bde0b682fad.setIcon(icon_1281bb31694645e08983556bd1ac21d8);
+            
+    
+            var marker_1aed05ea5d5639210620803d7d795bc4 = L.marker(
+                [13.0058357, 77.6281321],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_beee90eeec230b2175b9cb283f473b4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66aff925aec07ecd2d4a5f4e9a960f7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebfecd315147a15e0718e3eee36395a7 = $(`<div id="html_ebfecd315147a15e0718e3eee36395a7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Banaswadi <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.54</div>`)[0];
+                popup_66aff925aec07ecd2d4a5f4e9a960f7b.setContent(html_ebfecd315147a15e0718e3eee36395a7);
+            
+        
+
+        marker_1aed05ea5d5639210620803d7d795bc4.bindPopup(popup_66aff925aec07ecd2d4a5f4e9a960f7b)
+        ;
+
+        
+    
+    
+                marker_1aed05ea5d5639210620803d7d795bc4.setIcon(icon_beee90eeec230b2175b9cb283f473b4a);
+            
+    
+            var marker_878b7f14cd0ff2900fff273be40dd0c7 = L.marker(
+                [12.95185566582079, 77.60401135701308],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_7dcf59fb618e03f92e18704b252fee3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1ee2067fad4f7355fe1c809984592d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebdc6ceb56323175dea75bbd25cf83bc = $(`<div id="html_ebdc6ceb56323175dea75bbd25cf83bc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Bannerghatta Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.61</div>`)[0];
+                popup_e1ee2067fad4f7355fe1c809984592d3.setContent(html_ebdc6ceb56323175dea75bbd25cf83bc);
+            
+        
+
+        marker_878b7f14cd0ff2900fff273be40dd0c7.bindPopup(popup_e1ee2067fad4f7355fe1c809984592d3)
+        ;
+
+        
+    
+    
+                marker_878b7f14cd0ff2900fff273be40dd0c7.setIcon(icon_7dcf59fb618e03f92e18704b252fee3d);
+            
+    
+            var marker_d1604931b843f0824aa99033be8a96bd = L.marker(
+                [12.941726100000002, 77.5755021],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_296ebf4629df8862ada5726af33fa172 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b419639b98e0a40fe08086639e4fb9a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383207e59487d2b2105a714916908dba = $(`<div id="html_383207e59487d2b2105a714916908dba" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Basavanagudi <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.76</div>`)[0];
+                popup_b419639b98e0a40fe08086639e4fb9a3.setContent(html_383207e59487d2b2105a714916908dba);
+            
+        
+
+        marker_d1604931b843f0824aa99033be8a96bd.bindPopup(popup_b419639b98e0a40fe08086639e4fb9a3)
+        ;
+
+        
+    
+    
+                marker_d1604931b843f0824aa99033be8a96bd.setIcon(icon_296ebf4629df8862ada5726af33fa172);
+            
+    
+            var marker_87de52b23b438d1b9bcc6b6247e147f1 = L.marker(
+                [12.99118045, 77.54489175084052],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_dfaf9a0a26113e82cbae07a1c419161b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7aee3f0be759c064d549d572555f9723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d7e3a8a44e886cfec43cf9e2af03e1a = $(`<div id="html_3d7e3a8a44e886cfec43cf9e2af03e1a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Basaveshwara Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_7aee3f0be759c064d549d572555f9723.setContent(html_3d7e3a8a44e886cfec43cf9e2af03e1a);
+            
+        
+
+        marker_87de52b23b438d1b9bcc6b6247e147f1.bindPopup(popup_7aee3f0be759c064d549d572555f9723)
+        ;
+
+        
+    
+    
+                marker_87de52b23b438d1b9bcc6b6247e147f1.setIcon(icon_dfaf9a0a26113e82cbae07a1c419161b);
+            
+    
+            var marker_57aeebfec0e6d9f7d96169f6f6678acf = L.marker(
+                [12.92535245, 77.6759410570909],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_0fda69c3ef16c628b790c7f8cc6330fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_226164bce885745073a51af9bb81b39b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f9a750f93ac804eb89bccd736180525 = $(`<div id="html_6f9a750f93ac804eb89bccd736180525" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Bellandur <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.73</div>`)[0];
+                popup_226164bce885745073a51af9bb81b39b.setContent(html_6f9a750f93ac804eb89bccd736180525);
+            
+        
+
+        marker_57aeebfec0e6d9f7d96169f6f6678acf.bindPopup(popup_226164bce885745073a51af9bb81b39b)
+        ;
+
+        
+    
+    
+                marker_57aeebfec0e6d9f7d96169f6f6678acf.setIcon(icon_0fda69c3ef16c628b790c7f8cc6330fa);
+            
+    
+            var marker_01c801266086d0fee624aa57bc57a820 = L.marker(
+                [12.96735751087145, 77.60643527063574],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_d3256a2a1cb8bdbfbcefc61e5a46af76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0258f4471bb7a5ad77f2685833ff4640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e651f542f9124bccd1ffb5892ffaf71 = $(`<div id="html_2e651f542f9124bccd1ffb5892ffaf71" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Brigade Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.94</div>`)[0];
+                popup_0258f4471bb7a5ad77f2685833ff4640.setContent(html_2e651f542f9124bccd1ffb5892ffaf71);
+            
+        
+
+        marker_01c801266086d0fee624aa57bc57a820.bindPopup(popup_0258f4471bb7a5ad77f2685833ff4640)
+        ;
+
+        
+    
+    
+                marker_01c801266086d0fee624aa57bc57a820.setIcon(icon_d3256a2a1cb8bdbfbcefc61e5a46af76);
+            
+    
+            var marker_dd398b2ff9c42817595d69dbdd77d85d = L.marker(
+                [12.96381425, 77.72243691580387],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_aeac5b7ab6c4520944a855051fb31c91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e1c3ebcd30b6e297fd1d92965c1c486 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c74bf7098edc66c681240c619eb808e3 = $(`<div id="html_c74bf7098edc66c681240c619eb808e3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Brookefield <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.66</div>`)[0];
+                popup_0e1c3ebcd30b6e297fd1d92965c1c486.setContent(html_c74bf7098edc66c681240c619eb808e3);
+            
+        
+
+        marker_dd398b2ff9c42817595d69dbdd77d85d.bindPopup(popup_0e1c3ebcd30b6e297fd1d92965c1c486)
+        ;
+
+        
+    
+    
+                marker_dd398b2ff9c42817595d69dbdd77d85d.setIcon(icon_aeac5b7ab6c4520944a855051fb31c91);
+            
+    
+            var marker_9c5e426fb077909c171757d6fda0f677 = L.marker(
+                [12.97491414228927, 77.60524744720853],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_156da98019942f0ae345393c896a930d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_783f33ac336fef9b793ef3ca3fd0e3ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d46551b06e898602fe0f0c853a8da581 = $(`<div id="html_d46551b06e898602fe0f0c853a8da581" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Church Street <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.07</div>`)[0];
+                popup_783f33ac336fef9b793ef3ca3fd0e3ea.setContent(html_d46551b06e898602fe0f0c853a8da581);
+            
+        
+
+        marker_9c5e426fb077909c171757d6fda0f677.bindPopup(popup_783f33ac336fef9b793ef3ca3fd0e3ea)
+        ;
+
+        
+    
+    
+                marker_9c5e426fb077909c171757d6fda0f677.setIcon(icon_156da98019942f0ae345393c896a930d);
+            
+    
+            var marker_cfe3ea8269e4b610428c87bcbba1a309 = L.marker(
+                [12.98842549773467, 77.5938977809506],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_523e3d4065adfc03e71364be9b23db61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2530379c09983477eae1fc0c26b6626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8b228665fff2a87ff037eb24206ab6 = $(`<div id="html_fb8b228665fff2a87ff037eb24206ab6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Cunningham Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.23</div>`)[0];
+                popup_c2530379c09983477eae1fc0c26b6626.setContent(html_fb8b228665fff2a87ff037eb24206ab6);
+            
+        
+
+        marker_cfe3ea8269e4b610428c87bcbba1a309.bindPopup(popup_c2530379c09983477eae1fc0c26b6626)
+        ;
+
+        
+    
+    
+                marker_cfe3ea8269e4b610428c87bcbba1a309.setIcon(icon_523e3d4065adfc03e71364be9b23db61);
+            
+    
+            var marker_126876fcf861c0f18afee675579baf9b = L.marker(
+                [12.9624669, 77.6381958],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_b8a531a664d80d13461b03cd15b427c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58971823e57f78bb4172de39a8d0ba6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bb5eaef4f92d9a9dabd4bc01a81c396 = $(`<div id="html_0bb5eaef4f92d9a9dabd4bc01a81c396" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Domlur <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.69</div>`)[0];
+                popup_58971823e57f78bb4172de39a8d0ba6f.setContent(html_0bb5eaef4f92d9a9dabd4bc01a81c396);
+            
+        
+
+        marker_126876fcf861c0f18afee675579baf9b.bindPopup(popup_58971823e57f78bb4172de39a8d0ba6f)
+        ;
+
+        
+    
+    
+                marker_126876fcf861c0f18afee675579baf9b.setIcon(icon_b8a531a664d80d13461b03cd15b427c9);
+            
+    
+            var marker_2aaafa7905867515f922ccb16a6d85e7 = L.marker(
+                [12.9739905, 77.61449005854067],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_16950668754407888953bf323fb3ae63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0039abc9d4a154b23da1f342fc0a72a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_196f24b345e19c94bd60b6d28c93ae51 = $(`<div id="html_196f24b345e19c94bd60b6d28c93ae51" style="width: 100.0%; height: 100.0%;"><b>Location:</b> East Bangalore <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_0039abc9d4a154b23da1f342fc0a72a0.setContent(html_196f24b345e19c94bd60b6d28c93ae51);
+            
+        
+
+        marker_2aaafa7905867515f922ccb16a6d85e7.bindPopup(popup_0039abc9d4a154b23da1f342fc0a72a0)
+        ;
+
+        
+    
+    
+                marker_2aaafa7905867515f922ccb16a6d85e7.setIcon(icon_16950668754407888953bf323fb3ae63);
+            
+    
+            var marker_b101c9c40fdfb98920db196b2b8296e3 = L.marker(
+                [12.9427087, 77.6307137],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_32de47ef26d030d7668813ce57872616 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df11f1d2d6b85a24c9c3a6f261e54106 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46951b945e8fba47b4fb1d8884249053 = $(`<div id="html_46951b945e8fba47b4fb1d8884249053" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Ejipura <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.58</div>`)[0];
+                popup_df11f1d2d6b85a24c9c3a6f261e54106.setContent(html_46951b945e8fba47b4fb1d8884249053);
+            
+        
+
+        marker_b101c9c40fdfb98920db196b2b8296e3.bindPopup(popup_df11f1d2d6b85a24c9c3a6f261e54106)
+        ;
+
+        
+    
+    
+                marker_b101c9c40fdfb98920db196b2b8296e3.setIcon(icon_32de47ef26d030d7668813ce57872616);
+            
+    
+            var marker_5ef11e9e0cebc13782892e7a3c9faa72 = L.marker(
+                [12.8487599, 77.64825295827616],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_4350829be2f801e93390cbb8fef07736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1bba8b2ee7f48530b98baf5a2c5d642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e2806a562924f86d5d245c47ef2546e = $(`<div id="html_9e2806a562924f86d5d245c47ef2546e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Electronic City <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.58</div>`)[0];
+                popup_d1bba8b2ee7f48530b98baf5a2c5d642.setContent(html_9e2806a562924f86d5d245c47ef2546e);
+            
+        
+
+        marker_5ef11e9e0cebc13782892e7a3c9faa72.bindPopup(popup_d1bba8b2ee7f48530b98baf5a2c5d642)
+        ;
+
+        
+    
+    
+                marker_5ef11e9e0cebc13782892e7a3c9faa72.setIcon(icon_4350829be2f801e93390cbb8fef07736);
+            
+    
+            var marker_fc78309c347f9da4fe735765b0a99772 = L.marker(
+                [13.0358698, 77.6323597],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_7f1a6a4ac604c9d633317e43bcd39748 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90ecdb37297ec2e506f692766e1ec514 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a9a9477560d8d915b42f1f301adb008 = $(`<div id="html_7a9a9477560d8d915b42f1f301adb008" style="width: 100.0%; height: 100.0%;"><b>Location:</b> HBR Layout <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.95</div>`)[0];
+                popup_90ecdb37297ec2e506f692766e1ec514.setContent(html_7a9a9477560d8d915b42f1f301adb008);
+            
+        
+
+        marker_fc78309c347f9da4fe735765b0a99772.bindPopup(popup_90ecdb37297ec2e506f692766e1ec514)
+        ;
+
+        
+    
+    
+                marker_fc78309c347f9da4fe735765b0a99772.setIcon(icon_7f1a6a4ac604c9d633317e43bcd39748);
+            
+    
+            var marker_d52d2594ace315dd8ee946c3fa3f429d = L.marker(
+                [12.90056335, 77.64947470503677],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_c7d449a67f574b9710893173c572355f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ea93efbe2512a34f176687183f71a04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6a365e1a3cbda9d1bc7bf45f967cb87 = $(`<div id="html_d6a365e1a3cbda9d1bc7bf45f967cb87" style="width: 100.0%; height: 100.0%;"><b>Location:</b> HSR <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.76</div>`)[0];
+                popup_1ea93efbe2512a34f176687183f71a04.setContent(html_d6a365e1a3cbda9d1bc7bf45f967cb87);
+            
+        
+
+        marker_d52d2594ace315dd8ee946c3fa3f429d.bindPopup(popup_1ea93efbe2512a34f176687183f71a04)
+        ;
+
+        
+    
+    
+                marker_d52d2594ace315dd8ee946c3fa3f429d.setIcon(icon_c7d449a67f574b9710893173c572355f);
+            
+    
+            var marker_78c852df8bf1dab3a456f23f7d028333 = L.marker(
+                [12.9876393, 77.7377718],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_c54663b122a8a777fc0ecf97292be544 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80261d3a0bd01c34b53c20581a831b3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb6cc5a3ed820160e48964b18a103fef = $(`<div id="html_bb6cc5a3ed820160e48964b18a103fef" style="width: 100.0%; height: 100.0%;"><b>Location:</b> ITPL Main Road, Whitefield <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.76</div>`)[0];
+                popup_80261d3a0bd01c34b53c20581a831b3f.setContent(html_bb6cc5a3ed820160e48964b18a103fef);
+            
+        
+
+        marker_78c852df8bf1dab3a456f23f7d028333.bindPopup(popup_80261d3a0bd01c34b53c20581a831b3f)
+        ;
+
+        
+    
+    
+                marker_78c852df8bf1dab3a456f23f7d028333.setIcon(icon_c54663b122a8a777fc0ecf97292be544);
+            
+    
+            var marker_e432e1bb0dab9f5761c4a46e1b82a04d = L.marker(
+                [12.9962979, 77.5452778],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_dc8e81455fe131440e183417dd69fb42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0703850cd1235d10ce14308a770cbb13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_219671551fcdb229ed94e5830618c812 = $(`<div id="html_219671551fcdb229ed94e5830618c812" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Indiranagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.99</div>`)[0];
+                popup_0703850cd1235d10ce14308a770cbb13.setContent(html_219671551fcdb229ed94e5830618c812);
+            
+        
+
+        marker_e432e1bb0dab9f5761c4a46e1b82a04d.bindPopup(popup_0703850cd1235d10ce14308a770cbb13)
+        ;
+
+        
+    
+    
+                marker_e432e1bb0dab9f5761c4a46e1b82a04d.setIcon(icon_dc8e81455fe131440e183417dd69fb42);
+            
+    
+            var marker_e22d2373865f032c9a921780c4afe186 = L.marker(
+                [12.9096941, 77.5866067],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_784bd99e796e33d6902c4a37a1abf00f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54a81abb716d6e64e4b70c32a76965a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f3712d27099941ca77929c9c8e09430 = $(`<div id="html_7f3712d27099941ca77929c9c8e09430" style="width: 100.0%; height: 100.0%;"><b>Location:</b> JP Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.70</div>`)[0];
+                popup_54a81abb716d6e64e4b70c32a76965a1.setContent(html_7f3712d27099941ca77929c9c8e09430);
+            
+        
+
+        marker_e22d2373865f032c9a921780c4afe186.bindPopup(popup_54a81abb716d6e64e4b70c32a76965a1)
+        ;
+
+        
+    
+    
+                marker_e22d2373865f032c9a921780c4afe186.setIcon(icon_784bd99e796e33d6902c4a37a1abf00f);
+            
+    
+            var marker_2754b45edba49c9c2ab1a5621877352f = L.marker(
+                [12.9399039, 77.5826382],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_d670c9b9b2e96b9b96c0dc352fe39b07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f27a04dc8ad74c697fb91a6a6f4d0f57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_600b8022d30d0ac6277c6d3f0ba9b7dc = $(`<div id="html_600b8022d30d0ac6277c6d3f0ba9b7dc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Jayanagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.87</div>`)[0];
+                popup_f27a04dc8ad74c697fb91a6a6f4d0f57.setContent(html_600b8022d30d0ac6277c6d3f0ba9b7dc);
+            
+        
+
+        marker_2754b45edba49c9c2ab1a5621877352f.bindPopup(popup_f27a04dc8ad74c697fb91a6a6f4d0f57)
+        ;
+
+        
+    
+    
+                marker_2754b45edba49c9c2ab1a5621877352f.setIcon(icon_d670c9b9b2e96b9b96c0dc352fe39b07);
+            
+    
+            var marker_e405155c32f5cdf4c29900d5cf3d3cc0 = L.marker(
+                [13.0148544, 77.6382029],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_f7f223ff3b49ee9e5f2b9554628dc01b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8b3dd1fe29df9bbdddfcfac169538d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfdadc700c7c2d27276932534eb6d662 = $(`<div id="html_bfdadc700c7c2d27276932534eb6d662" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Kammanahalli <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.73</div>`)[0];
+                popup_d8b3dd1fe29df9bbdddfcfac169538d3.setContent(html_bfdadc700c7c2d27276932534eb6d662);
+            
+        
+
+        marker_e405155c32f5cdf4c29900d5cf3d3cc0.bindPopup(popup_d8b3dd1fe29df9bbdddfcfac169538d3)
+        ;
+
+        
+    
+    
+                marker_e405155c32f5cdf4c29900d5cf3d3cc0.setIcon(icon_f7f223ff3b49ee9e5f2b9554628dc01b);
+            
+    
+            var marker_6be3b3b89cc9187cfa21421cc7e592cf = L.marker(
+                [12.9327778, 77.6294052],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_31a8beba762f9eefbba2bb814d5612d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ed532c787c28d89366eea9ec8e1e148 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11acb47b1ac6334472f5d6a6b2ddec16 = $(`<div id="html_11acb47b1ac6334472f5d6a6b2ddec16" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 4th Block <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.01</div>`)[0];
+                popup_9ed532c787c28d89366eea9ec8e1e148.setContent(html_11acb47b1ac6334472f5d6a6b2ddec16);
+            
+        
+
+        marker_6be3b3b89cc9187cfa21421cc7e592cf.bindPopup(popup_9ed532c787c28d89366eea9ec8e1e148)
+        ;
+
+        
+    
+    
+                marker_6be3b3b89cc9187cfa21421cc7e592cf.setIcon(icon_31a8beba762f9eefbba2bb814d5612d9);
+            
+    
+            var marker_28219274e31afd2227191c047268a2f7 = L.marker(
+                [12.9348429, 77.6189768],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_7755d5419b8aa09b38e665ec4152ffca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7c37decf5b6d0fa9d3dc398028ab0f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_641bbb8d1af7e28f4e379cf11b2647bb = $(`<div id="html_641bbb8d1af7e28f4e379cf11b2647bb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 5th Block <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.06</div>`)[0];
+                popup_a7c37decf5b6d0fa9d3dc398028ab0f5.setContent(html_641bbb8d1af7e28f4e379cf11b2647bb);
+            
+        
+
+        marker_28219274e31afd2227191c047268a2f7.bindPopup(popup_a7c37decf5b6d0fa9d3dc398028ab0f5)
+        ;
+
+        
+    
+    
+                marker_28219274e31afd2227191c047268a2f7.setIcon(icon_7755d5419b8aa09b38e665ec4152ffca);
+            
+    
+            var marker_5836acb9942b0b843e63a1f08204b099 = L.marker(
+                [12.9390255, 77.6238477],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_1e402f8328acbb79686c6a288ec8ad60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78b15ed534244d77bf61e47faf3fdf22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_079960893b9ecd16f39613827570f005 = $(`<div id="html_079960893b9ecd16f39613827570f005" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 6th Block <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.00</div>`)[0];
+                popup_78b15ed534244d77bf61e47faf3fdf22.setContent(html_079960893b9ecd16f39613827570f005);
+            
+        
+
+        marker_5836acb9942b0b843e63a1f08204b099.bindPopup(popup_78b15ed534244d77bf61e47faf3fdf22)
+        ;
+
+        
+    
+    
+                marker_5836acb9942b0b843e63a1f08204b099.setIcon(icon_1e402f8328acbb79686c6a288ec8ad60);
+            
+    
+            var marker_150cc2287bf91bd1da9747aaf8f05b1c = L.marker(
+                [12.9364846, 77.6134783],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_8ddf29629a44ee111f5e31f0e26184c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_696ab90d7161f4d2ab64bb8fee42d648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a077cdd6cd48d7a2c3d33e826e107ae9 = $(`<div id="html_a077cdd6cd48d7a2c3d33e826e107ae9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Koramangala 7th Block <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.89</div>`)[0];
+                popup_696ab90d7161f4d2ab64bb8fee42d648.setContent(html_a077cdd6cd48d7a2c3d33e826e107ae9);
+            
+        
+
+        marker_150cc2287bf91bd1da9747aaf8f05b1c.bindPopup(popup_696ab90d7161f4d2ab64bb8fee42d648)
+        ;
+
+        
+    
+    
+                marker_150cc2287bf91bd1da9747aaf8f05b1c.setIcon(icon_8ddf29629a44ee111f5e31f0e26184c2);
+            
+    
+            var marker_8ec8aa36f230bc37a94ae2e27776e55f = L.marker(
+                [12.96834011237354, 77.5965066837003],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_52080c83d6c8c8eb11407d17d9c19286 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fb1e3b29d94ecb47ad1564773a17f93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6840ad07a7a82962530b95fb681a29d = $(`<div id="html_e6840ad07a7a82962530b95fb681a29d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Lavelle Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.22</div>`)[0];
+                popup_6fb1e3b29d94ecb47ad1564773a17f93.setContent(html_e6840ad07a7a82962530b95fb681a29d);
+            
+        
+
+        marker_8ec8aa36f230bc37a94ae2e27776e55f.bindPopup(popup_6fb1e3b29d94ecb47ad1564773a17f93)
+        ;
+
+        
+    
+    
+                marker_8ec8aa36f230bc37a94ae2e27776e55f.setIcon(icon_52080c83d6c8c8eb11407d17d9c19286);
+            
+    
+            var marker_a742e9c3c7d060edf2feecb0b57752c2 = L.marker(
+                [12.9755264, 77.6067902],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_aaccd33d65bbfd8706b4366652696701 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ccb9f0bb2bf8ef56a2852dc1822a33e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36134d261a3b34f0ffa195770419f9c2 = $(`<div id="html_36134d261a3b34f0ffa195770419f9c2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> MG Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.87</div>`)[0];
+                popup_ccb9f0bb2bf8ef56a2852dc1822a33e9.setContent(html_36134d261a3b34f0ffa195770419f9c2);
+            
+        
+
+        marker_a742e9c3c7d060edf2feecb0b57752c2.bindPopup(popup_ccb9f0bb2bf8ef56a2852dc1822a33e9)
+        ;
+
+        
+    
+    
+                marker_a742e9c3c7d060edf2feecb0b57752c2.setIcon(icon_aaccd33d65bbfd8706b4366652696701);
+            
+    
+            var marker_4291ef1108a2f7a39c7901957031e6c0 = L.marker(
+                [12.975608, 77.5553564],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_dd5016dbf7020467bd59af771106797a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad564a4de827f62f05d0b441b40fdcd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45d0bd3cec01efd0878778646d6db36b = $(`<div id="html_45d0bd3cec01efd0878778646d6db36b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Magadi Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.60</div>`)[0];
+                popup_ad564a4de827f62f05d0b441b40fdcd2.setContent(html_45d0bd3cec01efd0878778646d6db36b);
+            
+        
+
+        marker_4291ef1108a2f7a39c7901957031e6c0.bindPopup(popup_ad564a4de827f62f05d0b441b40fdcd2)
+        ;
+
+        
+    
+    
+                marker_4291ef1108a2f7a39c7901957031e6c0.setIcon(icon_dd5016dbf7020467bd59af771106797a);
+            
+    
+            var marker_6ad271633b8517a9ab0878c417d83450 = L.marker(
+                [12.9779079, 77.5723936],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_75b07060058efa7f81797ac4efa51934 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7efb94aa30cab9d5477d9cc567729a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_024b9aa4c1d766b91ec9b7af79c05fca = $(`<div id="html_024b9aa4c1d766b91ec9b7af79c05fca" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Majestic <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.65</div>`)[0];
+                popup_c7efb94aa30cab9d5477d9cc567729a6.setContent(html_024b9aa4c1d766b91ec9b7af79c05fca);
+            
+        
+
+        marker_6ad271633b8517a9ab0878c417d83450.bindPopup(popup_c7efb94aa30cab9d5477d9cc567729a6)
+        ;
+
+        
+    
+    
+                marker_6ad271633b8517a9ab0878c417d83450.setIcon(icon_75b07060058efa7f81797ac4efa51934);
+            
+    
+            var marker_ff299b5c9ee835ee4bc51c1f52cf39cd = L.marker(
+                [12.955257200000002, 77.6984163],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_04646bfed483d4101f7b8fa68a4f8ad2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88ec2cdd3182d831e4c5ff937a61ad34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98912c98b6f1bd1b60ee9d7d02d8d6b5 = $(`<div id="html_98912c98b6f1bd1b60ee9d7d02d8d6b5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Marathahalli <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.69</div>`)[0];
+                popup_88ec2cdd3182d831e4c5ff937a61ad34.setContent(html_98912c98b6f1bd1b60ee9d7d02d8d6b5);
+            
+        
+
+        marker_ff299b5c9ee835ee4bc51c1f52cf39cd.bindPopup(popup_88ec2cdd3182d831e4c5ff937a61ad34)
+        ;
+
+        
+    
+    
+                marker_ff299b5c9ee835ee4bc51c1f52cf39cd.setIcon(icon_04646bfed483d4101f7b8fa68a4f8ad2);
+            
+    
+            var marker_433e4630a630854a40c12c58513e928b = L.marker(
+                [13.0422794, 77.6248577],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_35c125512017115d8c9285b6240ee589 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c45742fdc86a1811c0e217b4a683db17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f06dc4527ba712cee1fd1e1e1c33a9ae = $(`<div id="html_f06dc4527ba712cee1fd1e1e1c33a9ae" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Nagawara <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.82</div>`)[0];
+                popup_c45742fdc86a1811c0e217b4a683db17.setContent(html_f06dc4527ba712cee1fd1e1e1c33a9ae);
+            
+        
+
+        marker_433e4630a630854a40c12c58513e928b.bindPopup(popup_c45742fdc86a1811c0e217b4a683db17)
+        ;
+
+        
+    
+    
+                marker_433e4630a630854a40c12c58513e928b.setIcon(icon_35c125512017115d8c9285b6240ee589);
+            
+    
+            var marker_d845b04b10b8f20b4fbeef4d9ee938c1 = L.marker(
+                [13.039185949999998, 77.56428405],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_12cd38aaa16d61a575d20f94a41c5e3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9d08bce801da645b50b00c8941e4e8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2634463f28d2c2a9a724ed3733d7ae94 = $(`<div id="html_2634463f28d2c2a9a724ed3733d7ae94" style="width: 100.0%; height: 100.0%;"><b>Location:</b> New BEL Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.85</div>`)[0];
+                popup_f9d08bce801da645b50b00c8941e4e8c.setContent(html_2634463f28d2c2a9a724ed3733d7ae94);
+            
+        
+
+        marker_d845b04b10b8f20b4fbeef4d9ee938c1.bindPopup(popup_f9d08bce801da645b50b00c8941e4e8c)
+        ;
+
+        
+    
+    
+                marker_d845b04b10b8f20b4fbeef4d9ee938c1.setIcon(icon_12cd38aaa16d61a575d20f94a41c5e3a);
+            
+    
+            var marker_91a0df6a4a358805a34f3f5cf6c50b8e = L.marker(
+                [12.9606321, 77.64249975],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_ebb221dc1b9e9d3af5aee5ce287435cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_885922e0e9b3c8ba439cd80fec204aa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14b3fb2aa24624b8df6d28bd5389f2fb = $(`<div id="html_14b3fb2aa24624b8df6d28bd5389f2fb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Old Airport Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.75</div>`)[0];
+                popup_885922e0e9b3c8ba439cd80fec204aa4.setContent(html_14b3fb2aa24624b8df6d28bd5389f2fb);
+            
+        
+
+        marker_91a0df6a4a358805a34f3f5cf6c50b8e.bindPopup(popup_885922e0e9b3c8ba439cd80fec204aa4)
+        ;
+
+        
+    
+    
+                marker_91a0df6a4a358805a34f3f5cf6c50b8e.setIcon(icon_ebb221dc1b9e9d3af5aee5ce287435cc);
+            
+    
+            var marker_58d2f579e7ff8ef2c76ca9f251c5c79f = L.marker(
+                [13.022720400000003, 77.595715],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_900553785d2ae5a52be526d285148f34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0b2cbb291f327df05edfffcdf9e4efb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44cb17c189f543adb18fabdb8a82df8d = $(`<div id="html_44cb17c189f543adb18fabdb8a82df8d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> RT Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.57</div>`)[0];
+                popup_d0b2cbb291f327df05edfffcdf9e4efb.setContent(html_44cb17c189f543adb18fabdb8a82df8d);
+            
+        
+
+        marker_58d2f579e7ff8ef2c76ca9f251c5c79f.bindPopup(popup_d0b2cbb291f327df05edfffcdf9e4efb)
+        ;
+
+        
+    
+    
+                marker_58d2f579e7ff8ef2c76ca9f251c5c79f.setIcon(icon_900553785d2ae5a52be526d285148f34);
+            
+    
+            var marker_84a1143bd2997845c84a4939cf9760f0 = L.marker(
+                [12.97169934240013, 77.60654751645028],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_830f91035d63af6b5d416515c3b29de7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6156bad2da6fe51b5ef593d45d8b4dea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f839a5985de37975d6c5d5961b3168ab = $(`<div id="html_f839a5985de37975d6c5d5961b3168ab" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Residency Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.96</div>`)[0];
+                popup_6156bad2da6fe51b5ef593d45d8b4dea.setContent(html_f839a5985de37975d6c5d5961b3168ab);
+            
+        
+
+        marker_84a1143bd2997845c84a4939cf9760f0.bindPopup(popup_6156bad2da6fe51b5ef593d45d8b4dea)
+        ;
+
+        
+    
+    
+                marker_84a1143bd2997845c84a4939cf9760f0.setIcon(icon_830f91035d63af6b5d416515c3b29de7);
+            
+    
+            var marker_2c9079537f045f340a0150aea1e9bf94 = L.marker(
+                [12.96506645396103, 77.59814087777411],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_80a176924c6dec148d945694f6df325e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bfeae6253d295dc891d4950f12c3cde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e7d5f9fae7a791e0ecc4e1a52d4c0b5 = $(`<div id="html_9e7d5f9fae7a791e0ecc4e1a52d4c0b5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Richmond Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.79</div>`)[0];
+                popup_9bfeae6253d295dc891d4950f12c3cde.setContent(html_9e7d5f9fae7a791e0ecc4e1a52d4c0b5);
+            
+        
+
+        marker_2c9079537f045f340a0150aea1e9bf94.bindPopup(popup_9bfeae6253d295dc891d4950f12c3cde)
+        ;
+
+        
+    
+    
+                marker_2c9079537f045f340a0150aea1e9bf94.setIcon(icon_80a176924c6dec148d945694f6df325e);
+            
+    
+            var marker_7213f354c3209a70cf486011f5b805e8 = L.marker(
+                [13.016854244444444, 77.5920614111111],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_cfcefd4760f785b2d039a033da278522 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb0713fc855472fc7837055730521efb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4de571095b199f91b11223d24500d17 = $(`<div id="html_d4de571095b199f91b11223d24500d17" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sadashiv Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.87</div>`)[0];
+                popup_eb0713fc855472fc7837055730521efb.setContent(html_d4de571095b199f91b11223d24500d17);
+            
+        
+
+        marker_7213f354c3209a70cf486011f5b805e8.bindPopup(popup_eb0713fc855472fc7837055730521efb)
+        ;
+
+        
+    
+    
+                marker_7213f354c3209a70cf486011f5b805e8.setIcon(icon_cfcefd4760f785b2d039a033da278522);
+            
+    
+            var marker_41797192cf841a7e25567007d5a1560e = L.marker(
+                [13.0621474, 77.58006135480495],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_bdfd7c0d09f5c65671bb19f220fe7aae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6b535c129e1e2fe38ddc943e94d2acb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_673aa44f44cafbf3796ccde7ac96668a = $(`<div id="html_673aa44f44cafbf3796ccde7ac96668a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sahakara Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.73</div>`)[0];
+                popup_c6b535c129e1e2fe38ddc943e94d2acb.setContent(html_673aa44f44cafbf3796ccde7ac96668a);
+            
+        
+
+        marker_41797192cf841a7e25567007d5a1560e.bindPopup(popup_c6b535c129e1e2fe38ddc943e94d2acb)
+        ;
+
+        
+    
+    
+                marker_41797192cf841a7e25567007d5a1560e.setIcon(icon_bdfd7c0d09f5c65671bb19f220fe7aae);
+            
+    
+            var marker_a43bb37ad80b5e43d38c4116d55d2423 = L.marker(
+                [12.9578658, 77.6958748],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_8bedda13072725f16abbfd9bc67ef7db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_339703a88a741dfd90b4e61e520187cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e15b0105a3c6f6064a7d403cbf1572d0 = $(`<div id="html_e15b0105a3c6f6064a7d403cbf1572d0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sanjay Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.62</div>`)[0];
+                popup_339703a88a741dfd90b4e61e520187cb.setContent(html_e15b0105a3c6f6064a7d403cbf1572d0);
+            
+        
+
+        marker_a43bb37ad80b5e43d38c4116d55d2423.bindPopup(popup_339703a88a741dfd90b4e61e520187cb)
+        ;
+
+        
+    
+    
+                marker_a43bb37ad80b5e43d38c4116d55d2423.setIcon(icon_8bedda13072725f16abbfd9bc67ef7db);
+            
+    
+            var marker_c8ef8522eb90c29163ba0db2a35d63bc = L.marker(
+                [12.98658359685462, 77.58877805281531],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_20d124e8131637abac62852a5010e9d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6bf75b5f2677b5e275823771b41cf0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b343d2af7713060c09fbefbd6a9b97eb = $(`<div id="html_b343d2af7713060c09fbefbd6a9b97eb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sankey Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.20</div>`)[0];
+                popup_b6bf75b5f2677b5e275823771b41cf0b.setContent(html_b343d2af7713060c09fbefbd6a9b97eb);
+            
+        
+
+        marker_c8ef8522eb90c29163ba0db2a35d63bc.bindPopup(popup_b6bf75b5f2677b5e275823771b41cf0b)
+        ;
+
+        
+    
+    
+                marker_c8ef8522eb90c29163ba0db2a35d63bc.setIcon(icon_20d124e8131637abac62852a5010e9d5);
+            
+    
+            var marker_bf6f83c1dd3fdc5a26144c451d9c3781 = L.marker(
+                [12.9240137940745, 77.6530859615482],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_ceef932c371e45a36170360cc07de20a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_518a408fb91c670585a4189779e46566 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28fd6f9fd0333a62b25143f018522e31 = $(`<div id="html_28fd6f9fd0333a62b25143f018522e31" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sarjapur Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.76</div>`)[0];
+                popup_518a408fb91c670585a4189779e46566.setContent(html_28fd6f9fd0333a62b25143f018522e31);
+            
+        
+
+        marker_bf6f83c1dd3fdc5a26144c451d9c3781.bindPopup(popup_518a408fb91c670585a4189779e46566)
+        ;
+
+        
+    
+    
+                marker_bf6f83c1dd3fdc5a26144c451d9c3781.setIcon(icon_ceef932c371e45a36170360cc07de20a);
+            
+    
+            var marker_ed7d779e2cf223e22416cf210597a037 = L.marker(
+                [12.9931876, 77.5753419],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_b0a0e320b410e0a3ad744f17e06db31b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9d55aae7b3ad1955102a7ba9ed905c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_606c57ef49a6d6afecb387783778b269 = $(`<div id="html_606c57ef49a6d6afecb387783778b269" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Seshadripuram <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.94</div>`)[0];
+                popup_e9d55aae7b3ad1955102a7ba9ed905c9.setContent(html_606c57ef49a6d6afecb387783778b269);
+            
+        
+
+        marker_ed7d779e2cf223e22416cf210597a037.bindPopup(popup_e9d55aae7b3ad1955102a7ba9ed905c9)
+        ;
+
+        
+    
+    
+                marker_ed7d779e2cf223e22416cf210597a037.setIcon(icon_b0a0e320b410e0a3ad744f17e06db31b);
+            
+    
+            var marker_9c836210244cf304cdf383dd47513fc8 = L.marker(
+                [12.957554699999998, 77.5979099],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_f2f5c0463776ccd76099194cba509dab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db16656bf75e5060a87c5b7b99c0fb15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc709a260df5fbd1dc28cc11bc1135c6 = $(`<div id="html_bc709a260df5fbd1dc28cc11bc1135c6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Shanti Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.63</div>`)[0];
+                popup_db16656bf75e5060a87c5b7b99c0fb15.setContent(html_bc709a260df5fbd1dc28cc11bc1135c6);
+            
+        
+
+        marker_9c836210244cf304cdf383dd47513fc8.bindPopup(popup_db16656bf75e5060a87c5b7b99c0fb15)
+        ;
+
+        
+    
+    
+                marker_9c836210244cf304cdf383dd47513fc8.setIcon(icon_f2f5c0463776ccd76099194cba509dab);
+            
+    
+            var marker_9064fbce38ec4c7812eba27abb99964c = L.marker(
+                [12.86410715, 77.55441638924378],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_f42dbca87bbc7c2b441f0764b97e38e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c352324872f4f087e864a38f8e596897 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a81c4b8c0e473faf5bdcb8a53316b0 = $(`<div id="html_40a81c4b8c0e473faf5bdcb8a53316b0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> South Bangalore <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.55</div>`)[0];
+                popup_c352324872f4f087e864a38f8e596897.setContent(html_40a81c4b8c0e473faf5bdcb8a53316b0);
+            
+        
+
+        marker_9064fbce38ec4c7812eba27abb99964c.bindPopup(popup_c352324872f4f087e864a38f8e596897)
+        ;
+
+        
+    
+    
+                marker_9064fbce38ec4c7812eba27abb99964c.setIcon(icon_f42dbca87bbc7c2b441f0764b97e38e7);
+            
+    
+            var marker_612efeb79761f346c7e951cf4a509bb3 = L.marker(
+                [12.9758014492854, 77.60169240479877],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_212c96a29f7fa7e53b61b9735b800861 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b38ddf6f78f2578b2aaa29df99be6ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acce57572cb7ce6b23449db540ba4eda = $(`<div id="html_acce57572cb7ce6b23449db540ba4eda" style="width: 100.0%; height: 100.0%;"><b>Location:</b> St. Marks Road <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 4.26</div>`)[0];
+                popup_6b38ddf6f78f2578b2aaa29df99be6ad.setContent(html_acce57572cb7ce6b23449db540ba4eda);
+            
+        
+
+        marker_612efeb79761f346c7e951cf4a509bb3.bindPopup(popup_6b38ddf6f78f2578b2aaa29df99be6ad)
+        ;
+
+        
+    
+    
+                marker_612efeb79761f346c7e951cf4a509bb3.setIcon(icon_212c96a29f7fa7e53b61b9735b800861);
+            
+    
+            var marker_c10e8c4e6f4796c70fee248c71f8b415 = L.marker(
+                [12.956713299999999, 77.74520818950934],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_af64172c4714a75ab1c6441a5815109b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9673b0895d1e27454defb92b54156d58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c0cf66ea4343370b901aa035b5057bf = $(`<div id="html_2c0cf66ea4343370b901aa035b5057bf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Varthur Main Road, Whitefield <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.97</div>`)[0];
+                popup_9673b0895d1e27454defb92b54156d58.setContent(html_2c0cf66ea4343370b901aa035b5057bf);
+            
+        
+
+        marker_c10e8c4e6f4796c70fee248c71f8b415.bindPopup(popup_9673b0895d1e27454defb92b54156d58)
+        ;
+
+        
+    
+    
+                marker_c10e8c4e6f4796c70fee248c71f8b415.setIcon(icon_af64172c4714a75ab1c6441a5815109b);
+            
+    
+            var marker_9eecb707698351f0b7b6c4b2a7f3b363 = L.marker(
+                [12.9934283, 77.5902145],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_2190829e794dc5dd1ad67bf973d49ead = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbd084ae19d3d9a710c432a93de63f48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86d65b353b484404485d202f3e478480 = $(`<div id="html_86d65b353b484404485d202f3e478480" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Vasanth Nagar <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.99</div>`)[0];
+                popup_dbd084ae19d3d9a710c432a93de63f48.setContent(html_86d65b353b484404485d202f3e478480);
+            
+        
+
+        marker_9eecb707698351f0b7b6c4b2a7f3b363.bindPopup(popup_dbd084ae19d3d9a710c432a93de63f48)
+        ;
+
+        
+    
+    
+                marker_9eecb707698351f0b7b6c4b2a7f3b363.setIcon(icon_2190829e794dc5dd1ad67bf973d49ead);
+            
+    
+            var marker_340e43bfed15c521f195dcbbfd394c1f = L.marker(
+                [12.9696365, 77.7497448],
+                {
+}
+            ).addTo(feature_group_e023eb898bdd59dcc8596daf7a81732c);
+        
+    
+            var icon_79b5793d9c8226b45278aac5b3c76955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "pagelines",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c60f80980edba56eef1b631ca3ac28a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63c5c3b6a4a224c8341276edac8c6540 = $(`<div id="html_63c5c3b6a4a224c8341276edac8c6540" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Whitefield <br><b>Top Cuisine:</b> Desserts<br><b>Avg Rating:</b> 3.74</div>`)[0];
+                popup_c60f80980edba56eef1b631ca3ac28a5.setContent(html_63c5c3b6a4a224c8341276edac8c6540);
+            
+        
+
+        marker_340e43bfed15c521f195dcbbfd394c1f.bindPopup(popup_c60f80980edba56eef1b631ca3ac28a5)
+        ;
+
+        
+    
+    
+                marker_340e43bfed15c521f195dcbbfd394c1f.setIcon(icon_79b5793d9c8226b45278aac5b3c76955);
+            
+    
+            feature_group_e023eb898bdd59dcc8596daf7a81732c.addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+        
+    
+            var layer_control_ca69520602f77abdb8119a1bf1dd8ff7_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_fdca582da00abfda4cc4e587b79ba2a1,
+                },
+                overlays :  {
+                    "North Indian" : feature_group_f0f90a7657dc93ce79ea0819ed127540,
+                    "Chinese" : feature_group_4f435c74881cc323fb8ee88e45d60a1b,
+                    "South Indian" : feature_group_5796ef38b327c8b3516d8d179baa6a47,
+                    "Fast Food" : feature_group_4ed703e3ebfdc40f5d7b9417a8636ea5,
+                    "Desserts" : feature_group_e023eb898bdd59dcc8596daf7a81732c,
+                },
+            };
+            let layer_control_ca69520602f77abdb8119a1bf1dd8ff7 = L.control.layers(
+                layer_control_ca69520602f77abdb8119a1bf1dd8ff7_layers.base_layers,
+                layer_control_ca69520602f77abdb8119a1bf1dd8ff7_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_ac1e86cbd6fbac1b874759de1b0dbfb1);
+
+        
+</script>
+</html>
